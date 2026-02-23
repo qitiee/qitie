@@ -1,30 +1,48 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nghề nghiệp tương lai</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
 
-.header {
-    flex: 15;
-    background-color: lightgrey;
-}
+<body>
+    <h1>NGHỀ NGHIỆP TƯƠNG LAI CỦA EM</h1>
 
-.menu{
-    flex: 5;
-    background-color: darkgrey;
-}
+    <h2>1. Giới thiệu</h2>
+    <p>
+        Trong tương lai, em mong muốn trở thành một người làm việc trong lĩnh vực
+        công nghệ thông tin. Đây là ngành nghề quan trọng và có nhiều cơ hội phát triển
+        trong thời đại số.
+    </p>
 
-.content{
-    flex: 70%;
-    background-color: lightblue;
-}
+    <h2>2. Nghề nghiệp em lựa chọn</h2>
+    <p>
+        Nghề nghiệp tương lai của em là <strong>Lập trình viên</strong>.
+        Lập trình viên là người tạo ra các phần mềm, trang web và ứng dụng
+        phục vụ cho học tập, công việc và cuộc sống.
+    </p>
 
-.footer{
-    flex: 10%;
-    background-color: lightgrey;
-}
+    <h2>3. Lý do em chọn nghề này</h2>
+    <ul>
+        <li>Phù hợp với sở thích công nghệ</li>
+        <li>Có nhiều cơ hội việc làm</li>
+        <li>Thu nhập ổn định</li>
+        <li>Có thể làm việc sáng tạo</li>
+    </ul>
 
-h1{
-    color: red;
-    text-align: center;
-}
+    <h2>4. Phẩm chất cần có</h2>
+    <ul>
+        <li>Chăm chỉ, kiên trì</li>
+        <li>Ham học hỏi</li>
+        <li>Tư duy logic</li>
+        <li>Biết làm việc nhóm</li>
+    </ul>
+
+    <h2>5. Kết luận</h2>
+    <p>
+        Để đạt được ước mơ nghề nghiệp trong tương lai, em sẽ cố gắng học tập tốt,
+        rèn luyện kỹ năng và không ngừng trau dồi kiến thức.
+    </p>
+</body>
+</html>
