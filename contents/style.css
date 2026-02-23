@@ -1,103 +1,30 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nghề nghiệp tương lai</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Thêm một số CSS cơ bản cho bố cục */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
-        h1, h2 {
-            color: #007BFF;
-        }
+.header {
+    flex: 15;
+    background-color: lightgrey;
+}
 
-        h1 {
-            text-align: center;
-            padding: 20px 0;
-        }
+.menu{
+    flex: 5;
+    background-color: darkgrey;
+}
 
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+.content{
+    flex: 70%;
+    background-color: lightblue;
+}
 
-        p, ul {
-            margin-bottom: 15px;
-        }
+.footer{
+    flex: 10%;
+    background-color: lightgrey;
+}
 
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-
-        strong {
-            color: #007BFF;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <h1>Nghề nghiệp tương lai của em</h1>
-    </header>
-
-    <section>
-        <h2>1. Giới thiệu</h2>
-        <p>
-            Trong tương lai, em mong muốn trở thành một người làm việc trong lĩnh vực
-            công nghệ thông tin. Đây là ngành nghề quan trọng và có nhiều cơ hội phát triển
-            trong thời đại số.
-        </p>
-    </section>
-
-    <section>
-        <h2>2. Nghề nghiệp em lựa chọn</h2>
-        <p>
-            Nghề nghiệp tương lai của em là <strong>Lập trình viên</strong>.
-            Lập trình viên là người tạo ra các phần mềm, trang web và ứng dụng
-            phục vụ cho học tập, công việc và cuộc sống.
-        </p>
-    </section>
-
-    <section>
-        <h2>3. Lý do em chọn nghề này</h2>
-        <ul>
-            <li>Phù hợp với sở thích công nghệ</li>
-            <li>Có nhiều cơ hội việc làm</li>
-            <li>Thu nhập ổn định</li>
-            <li>Có thể làm việc sáng tạo</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>4. Phẩm chất cần có</h2>
-        <ul>
-            <li>Chăm chỉ, kiên trì</li>
-            <li>Ham học hỏi</li>
-            <li>Tư duy logic</li>
-            <li>Biết làm việc nhóm</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>5. Kết luận</h2>
-        <p>
-            Để đạt được ước mơ nghề nghiệp trong tương lai, em sẽ cố gắng học tập tốt,
-            rèn luyện kỹ năng và không ngừng trau dồi kiến thức.
-        </p>
-    </section>
-</body>
-</html>
+h1{
+    color: red;
+    text-align: center;
+}
